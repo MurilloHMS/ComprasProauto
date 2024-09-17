@@ -10,10 +10,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\icone-proauto.ico" />
     <None Remove="Assets\logo.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Assets\icone-proauto.ico" />
     <Resource Include="Assets\logo.png" />
   </ItemGroup>
 
