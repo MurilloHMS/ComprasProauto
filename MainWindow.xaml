@@ -162,18 +162,11 @@
                                  VerticalContentAlignment="Bottom"
                                  Padding="20,0,0,0"
                                  Background="Transparent"/>
-                        <ListBoxItem Content="teste1">
-                            <ListBoxItem.Style>
-                                <Style TargetType="ListBoxItem">
-                                    <Setter Property="Foreground" Value="White"/>
-                                    <Setter Property="BorderBrush" Value="Transparent"/>
-                                </Style>
-                            </ListBoxItem.Style>
-                           
-                        </ListBoxItem>
                     </StackPanel>
                 </Grid>
-                
+                <ListBox Margin="10,166,901,34" Grid.Row="1" d:ItemsSource="{d:SampleData ItemCount=5}" Background="Transparent" Foreground="#F2F4F6F8" BorderBrush="Transparent" Cursor="Hand"/>
+                <DataGrid Margin="380,34,36,34" Grid.Row="1" d:ItemsSource="{d:SampleData ItemCount=5}" Background="Transparent" BorderBrush="Transparent"/>
+
             </Grid>
         </Border>
     </Border>
